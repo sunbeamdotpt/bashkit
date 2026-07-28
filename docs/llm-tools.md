@@ -1,3 +1,9 @@
+---
+title: Bashkit as an LLM Tool
+description: BashTool wraps the Bashkit sandbox as a ready-made tool for agent frameworks, with discovery metadata, a system prompt, and streaming output.
+updated_at: "2026-07-28"
+---
+
 # Bashkit as an LLM Tool
 
 `BashTool` wraps the Bashkit sandbox as a ready-made tool for agent frameworks.
@@ -107,7 +113,7 @@ npx skills add everruns/bashkit
 
 ## Next steps
 
-- [Hooks](hooks.md) — observe, rewrite, or cancel tool calls and HTTP requests.
+- [Hooks](../crates/bashkit/docs/hooks.md) — observe, rewrite, or cancel tool calls and HTTP requests.
 - [Security](security.md) — the sandbox boundaries every tool call runs inside.
 - Examples: [agent and tool flows](https://github.com/everruns/bashkit/tree/main/examples).
 - Full API reference: [docs.rs/bashkit](https://docs.rs/bashkit/latest/bashkit/).

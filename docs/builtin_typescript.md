@@ -1,3 +1,9 @@
+---
+title: TypeScript in Bashkit
+description: Bashkit's embedded TypeScript interpreter (ZapCode) runs in-memory alongside bash with zero V8 dependency.
+updated_at: "2026-07-28"
+---
+
 # TypeScript in Bashkit
 
 Bashkit includes an embedded TypeScript interpreter powered by

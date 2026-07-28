@@ -1,3 +1,9 @@
+---
+title: Custom Builtins in Bashkit
+description: Register your own commands as bash builtins that share the interpreter's VFS and shell state.
+updated_at: "2026-07-28"
+---
+
 # Custom Builtins in Bashkit
 
 Register your own commands as bash builtins. They behave like baked-in

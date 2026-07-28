@@ -1,3 +1,9 @@
+---
+title: Virtual filesystem
+description: Every Bashkit script runs against an in-memory virtual filesystem, not the host disk; access is granted deliberately, never by accident.
+updated_at: "2026-07-28"
+---
+
 # Virtual filesystem
 
 Every Bashkit script runs against an in-memory **virtual filesystem** (VFS), not
@@ -65,7 +71,7 @@ semantics.
 |----------------|---------|
 | **InMemoryFs** | Default (`Bash::new()`). `HashMap`-backed, thread-safe, no persistence. Seeds `/`, `/tmp`, `/home`, `/home/user`, `/dev`. |
 | **OverlayFs** | Copy-on-write over another filesystem, with whiteout tracking for deletes. |
-| **MountableFs** | Mount multiple filesystems at different paths (longest-prefix match). Always the outermost layer, enabling [live mounts](live-mounts.md). |
+| **MountableFs** | Mount multiple filesystems at different paths (longest-prefix match). Always the outermost layer, enabling [live mounts](../crates/bashkit/docs/live_mounts.md). |
 | **ReadOnlyFs** | Delegates reads, denies every mutation with `PermissionDenied` — even writes to `/tmp`, `cp`, `mv`, `rm`, `chmod`. For inspection-only sessions. |
 | **RealFs** (`realfs` feature) | Direct access to a host directory. Read-only (safe) or read-write (dangerous); path traversal blocked by canonicalisation + root-prefix checks. |
 
@@ -116,6 +122,6 @@ readonly_filesystem: bool                       # deny all VFS mutations after s
 ## See also
 
 - [Security](security.md) — the boundaries built on top of the VFS.
-- [Live mounts](live-mounts.md) — attach and detach filesystems at runtime.
+- [Live mounts](../crates/bashkit/docs/live_mounts.md) — attach and detach filesystems at runtime.
 - [Snapshotting](snapshotting.md) — serialise and restore VFS + shell state.
 - Spec: [`specs/vfs.md`](https://github.com/everruns/bashkit/blob/main/specs/vfs.md).

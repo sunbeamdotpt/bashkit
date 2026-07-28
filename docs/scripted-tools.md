@@ -1,3 +1,9 @@
+---
+title: Scripted tool orchestration
+description: ScriptedTool collapses multi-step LLM tool calls into a single bash script that composes tools, pipes, loops, and branches in one call.
+updated_at: "2026-07-28"
+---
+
 # Scripted tool orchestration
 
 Give an LLM ten tools and a ten-step task, and you pay for ten round-trips —

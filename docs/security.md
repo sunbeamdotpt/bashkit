@@ -1,3 +1,9 @@
+---
+title: Security in Bashkit
+description: High-level overview of Bashkit's sandbox security model — every design decision considers what an untrusted script could do and how to prevent it.
+updated_at: "2026-07-28"
+---
+
 # Security in Bashkit
 
 Bashkit is a virtual Bash interpreter designed for safe, sandboxed script

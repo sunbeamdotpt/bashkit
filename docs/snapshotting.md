@@ -1,3 +1,9 @@
+---
+title: Snapshotting in Bashkit
+description: Serialize an interpreter into opaque bytes and restore it later — for checkpoint/resume flows, warm sandbox caching, or rollbacks.
+updated_at: "2026-07-28"
+---
+
 # Snapshotting in Bashkit
 
 Bashkit can serialize an interpreter into opaque bytes and restore it later.

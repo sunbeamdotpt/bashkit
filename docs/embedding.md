@@ -1,3 +1,9 @@
+---
+title: Embedding Bashkit
+description: Run Bashkit as a library inside your own application or agent runtime — every command reimplemented in Rust, in-process, against a virtual filesystem.
+updated_at: "2026-07-28"
+---
+
 # Embedding Bashkit
 
 Run Bashkit as a library inside your own application or agent runtime. Every
@@ -33,7 +39,7 @@ cargo add bashkit --features scripted_tool
 `http_client` enables `curl`/`wget` and the network allowlist shown below.
 Embedded Python (Monty) is a git-only dependency, so there is no `python`
 feature from the crates.io release — to run Python inside the shell see the
-[Python builtin](python.md) guide. The `pip install bashkit` wheel below is a
+[Python builtin](../crates/bashkit/docs/python.md) guide. The `pip install bashkit` wheel below is a
 separate, standalone binding.
 
 ### Minimal execution
@@ -145,7 +151,7 @@ console.log(bash.executeSync("echo $X").stdout);
 
 ## Next steps
 
-- [Custom builtins](custom_builtins.md) — add your own Rust commands to the shell.
+- [Custom builtins](../crates/bashkit/docs/custom_builtins.md) — add your own Rust commands to the shell.
 - [Snapshotting](snapshotting.md) — serialize and restore interpreter state for
   checkpoint/resume flows.
 - [Security](security.md) — sandbox boundaries and what scripts cannot do.

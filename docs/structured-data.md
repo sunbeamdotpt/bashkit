@@ -1,3 +1,9 @@
+---
+title: Structured data
+description: Beyond jq, Bashkit ships small builtins for CSV, JSON, YAML, and TOML that read from a file argument or stdin and pipe naturally.
+updated_at: "2026-07-28"
+---
+
 # Structured data
 
 Beyond `jq`, Bashkit ships small builtins for the formats scripts hit most often:
@@ -7,7 +13,7 @@ file argument or from stdin so they pipe naturally.
 
 | Builtin | Format | Reach for it when |
 |---------|--------|-------------------|
-| [`jq`](jq.md) | JSON | You need real JSON transformation — filters, construction, reduction. |
+| [`jq`](../crates/bashkit/docs/jq.md) | JSON | You need real JSON transformation — filters, construction, reduction. |
 | `json` | JSON | You want a quick `get` / `set` / `keys` / `length` without jq syntax. |
 | `csv` | CSV | Selecting columns, filtering rows, counting, sorting tabular data. |
 | `yaml` | YAML | Reading a value out of a config file by dotted path. |
@@ -76,7 +82,7 @@ echo "starting on $port"
 
 ## See also
 
-- [jq builtin](jq.md) — the full JSON query engine, with its own compatibility
+- [jq builtin](../crates/bashkit/docs/jq.md) — the full JSON query engine, with its own compatibility
   reference.
-- [Compatibility](compatibility.md) — the complete builtin coverage matrix.
+- [Compatibility](../crates/bashkit/docs/compatibility.md) — the complete builtin coverage matrix.
 - [Browse all builtins](/builtins) — every registered command.

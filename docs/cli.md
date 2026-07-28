@@ -1,3 +1,9 @@
+---
+title: bashkit-cli
+description: Command-line interface for running bash scripts in a sandboxed virtual filesystem — one binary, three modes.
+updated_at: "2026-07-28"
+---
+
 # bashkit-cli
 
 Command-line interface for running bash scripts in a sandboxed virtual

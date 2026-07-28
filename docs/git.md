@@ -1,3 +1,9 @@
+---
+title: Git
+description: Sandboxed git builtin behind the git feature flag, operating entirely on the in-memory virtual filesystem.
+updated_at: "2026-07-28"
+---
+
 # Git
 
 Bashkit ships a sandboxed `git` builtin behind the `git` feature flag. Every
