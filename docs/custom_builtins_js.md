@@ -1,3 +1,7 @@
+---
+title: Custom Builtins in Bashkit
+---
+
 # Custom Builtins in Bashkit
 
 Register your own commands as bash builtins. They behave like baked-in

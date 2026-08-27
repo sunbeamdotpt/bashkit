@@ -1,3 +1,7 @@
+---
+title: bashkit-cli
+---
+
 # bashkit-cli
 
 Command-line interface for running bash scripts in a sandboxed virtual

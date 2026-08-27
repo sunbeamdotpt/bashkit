@@ -1,3 +1,7 @@
+---
+title: Structured data
+---
+
 # Structured data
 
 Beyond `jq`, Bashkit ships small builtins for the formats scripts hit most often:

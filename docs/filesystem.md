@@ -1,3 +1,7 @@
+---
+title: Virtual filesystem
+---
+
 # Virtual filesystem
 
 Every Bashkit script runs against an in-memory **virtual filesystem** (VFS), not

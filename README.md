@@ -1,3 +1,7 @@
+---
+title: Bashkit
+---
+
 # Bashkit
 
 [![CI](https://github.com/everruns/bashkit/actions/workflows/ci.yml/badge.svg)](https://github.com/everruns/bashkit/actions/workflows/ci.yml)

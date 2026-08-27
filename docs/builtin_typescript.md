@@ -1,3 +1,7 @@
+---
+title: TypeScript in Bashkit
+---
+
 # TypeScript in Bashkit
 
 Bashkit includes an embedded TypeScript interpreter powered by

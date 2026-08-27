@@ -1,3 +1,7 @@
+---
+title: Networking & HTTP
+---
+
 # Networking & HTTP
 
 Bashkit's HTTP builtins — `curl`, `wget`, and `http` — are the only way a script

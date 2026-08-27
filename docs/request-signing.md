@@ -1,3 +1,7 @@
+---
+title: Request signing
+---
+
 # Request signing
 
 Bot identity on the web has historically been an honor system. A `User-Agent`

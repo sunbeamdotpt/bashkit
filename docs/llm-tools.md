@@ -1,3 +1,7 @@
+---
+title: Bashkit as an LLM Tool
+---
+
 # Bashkit as an LLM Tool
 
 `BashTool` wraps the Bashkit sandbox as a ready-made tool for agent frameworks.

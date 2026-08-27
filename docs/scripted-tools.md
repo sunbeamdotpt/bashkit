@@ -1,3 +1,7 @@
+---
+title: Scripted tool orchestration
+---
+
 # Scripted tool orchestration
 
 Give an LLM ten tools and a ten-step task, and you pay for ten round-trips —

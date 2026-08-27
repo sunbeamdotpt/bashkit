@@ -1,3 +1,7 @@
+---
+title: Snapshotting in Bashkit
+---
+
 # Snapshotting in Bashkit
 
 Bashkit can serialize an interpreter into opaque bytes and restore it later.

@@ -1,3 +1,7 @@
+---
+title: Embedding Bashkit
+---
+
 # Embedding Bashkit
 
 Run Bashkit as a library inside your own application or agent runtime. Every

@@ -1,3 +1,7 @@
+---
+title: Git
+---
+
 # Git
 
 Bashkit ships a sandboxed `git` builtin behind the `git` feature flag. Every
